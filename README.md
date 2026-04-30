@@ -46,10 +46,10 @@ Sales data across regions and product categories was inconsistent, making it dif
 
 
 
-```md
-## 🖼️ Dashboard
+
+🖼️ Dashboard
 
 ![Dashboard](sales.png)
 
-```
+
 
