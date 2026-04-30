@@ -47,6 +47,6 @@ Sales data across regions and product categories was inconsistent, making it dif
 (Add your dashboard screenshot here)
 
 ```md
-![Dashboard](dashboard.png)
+![Dashboard](sales.png)
 ```
 
