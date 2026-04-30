@@ -49,8 +49,7 @@ Sales data across regions and product categories was inconsistent, making it dif
 ```md
 ## 🖼️ Dashboard
 
-![Dashboard](]()
-<img width="1071" height="562" alt="sales" src="https://github.com/user-attachments/assets/040cf1ac-2652-453b-a167-95df0322030b" />
+![Dashboard](sales.png)
 
 ```
 
