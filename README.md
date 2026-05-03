@@ -1,55 +1,78 @@
-# sales-data-analysis
-# 📊 Sales Data Analysis Dashboard
+# 🚗 Car Sales Dashboard
 
-## 🧠 Problem
+## 📊 Overview
 
-Sales data across regions and product categories was inconsistent, making it difficult to track performance and identify key revenue drivers.
+This project presents an interactive dashboard designed to analyze car sales performance and provide key business insights.
+The dashboard enables tracking of revenue, sales volume, delivery efficiency, and cancellation trends.
 
 ---
 
-## 🛠️ Tools
+## ❗ Problem
+
+Sales data was inconsistent and unstructured, making it difficult to track performance and identify key drivers of revenue and operational efficiency.
+
+---
+
+## 🧹 Data Cleaning
+
+The `FACT_Sales` dataset was cleaned and standardized before analysis:
+
+* Converted IDs to integer format
+* Standardized dates to **YYYY-MM-DD**
+* Removed currency symbols from price columns
+* Removed % signs from discount and commission columns
+* Unified status values into:
+
+  * Completed
+  * Pending Delivery
+  * Cancelled
+* Removed duplicate records and empty rows
+
+---
+
+## 📈 Dashboard Features
+
+* KPI Cards:
+
+  * Total Revenue
+  * Total Sales (Qty)
+  * Avg Delivery Days
+  * Cancellation Rate
+* Monthly Revenue Trend
+* Branch Sales Analysis
+* Model Performance Analysis
+* Sales Status Distribution
+* Interactive Filters (Body Type & Fuel Type)
+
+---
+
+## 🛠 Tools Used
 
 * Microsoft Excel
 * Power Query
-* Pivot Tables
-* Data Visualization
+* Pivot Tables & Pivot Charts
 
 ---
 
-## ⚙️ Analysis & Process
-
-* Cleaned and transformed raw data using Power Query
-* Built a structured data model for analysis
-* Created Pivot Tables to analyze revenue trends and product performance
-* Designed an interactive dashboard for clear data visualization
-
----
-
-## 🔍 Key Insights
-
-* 📈 Revenue peaks mid-year, indicating seasonal demand trends
-* 💎 Premium product categories generate the highest profit
-* 📍 Cairo region contributes the largest share of total revenue
-* 🔄 Sales performance varies across categories and regions
-
----
-
-## 🚀 Impact
-
-* ✅ Established a reliable and consistent reporting system
-* 📊 Improved visibility of high-performing products and regions
-* 🎯 Enabled better data-driven decision-making
-
----
-
-## 🖼️ Dashboard
-
-
-
-
-🖼️ Dashboard
+## 📸 Dashboard Preview
 
 ![Dashboard](sales.png)
+
+---
+
+## 🚀 Key Insights
+
+* Cairo branch generated the highest revenue
+* Peak sales occurred mid-year
+* Cancellation rate reached ~19%
+* Certain models significantly outperform others
+
+---
+
+## 📌 Conclusion
+
+This dashboard helps transform raw sales data into actionable insights, supporting better decision-making and performance tracking.
+
 
 
 
