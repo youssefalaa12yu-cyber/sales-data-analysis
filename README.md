@@ -56,7 +56,7 @@ The `FACT_Sales` dataset was cleaned and standardized before analysis:
 
 ## 📸 Dashboard Preview
 
-![Dashboard](sales.png)
+![Dashboard](sales.png.png)
 
 ---
 
